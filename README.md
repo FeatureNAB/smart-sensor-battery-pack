@@ -1,6 +1,4 @@
-# [Smart Sensor Battery Pack]
-
-## About This Project
+# Smart Sensor Battery Pack
 This is the experimental battery charging PCB designed for my YouTube video. You can see the full build process, design theory, and assembly in the video below:
 
 [![Watch the video](https://img.youtube.com/vi/-wEKOhVZ0NM/0.jpg)](https://www.youtube.com/watch?v=-wEKOhVZ0NM)
