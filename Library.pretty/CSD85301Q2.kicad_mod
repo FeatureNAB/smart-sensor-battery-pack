@@ -1,0 +1,197 @@
+(footprint "CSD85301Q2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>CSD85301Q2-3</b><br>")
+	(property "Reference" "REF**"
+		(at 0 -3.81 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a87b1f8b-ec70-4106-892d-47b7d4110fd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CSD85301Q2"
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acc24fdf-97d7-494e-a06c-5b0578ac85cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/csd85301q2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b9b17fc-28e1-419a-92f1-216c0eacac52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cec292a-544e-4180-b795-34f74ab2a939")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part no." "C544396"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "921c6ea3-6eb0-4a72-a33a-4dbcbff2b207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 1)
+		(end 0.975 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d054da14-a5f2-418a-907f-29ba33a3dfd8")
+	)
+	(fp_line
+		(start -0.975 -1)
+		(end 0.975 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "449f9890-5bd9-4191-8e53-6f44e7244604")
+	)
+	(fp_circle
+		(center -1 -1.5)
+		(end -0.873 -1.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a14a5861-b1b1-40f7-a42e-4c23e38e7d4e")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf94208a-143d-443a-a540-00f43f814158")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4e09687-86d3-4d96-afea-3a4459fd8ff2")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "464c946c-f60f-41d1-9872-a932e37b72c3")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "876f6072-d915-4d59-b56b-1ceaf3957a66")
+	)
+	(pad "1" smd rect
+		(at -0.975 -0.65)
+		(size 0.45 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b5cf4435-6f30-4eae-a253-82cee12ebdde")
+	)
+	(pad "2" smd rect
+		(at -0.975 0)
+		(size 0.45 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "36fc7e40-03cd-43ce-aa8f-ddc300a10103")
+	)
+	(pad "3" smd rect
+		(at -0.975 0.65)
+		(size 0.45 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "180f9e35-741c-4b72-8149-66a06902c792")
+	)
+	(pad "4" smd rect
+		(at 0.975 0.65)
+		(size 0.45 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "90f6af5b-2dcc-40e6-818d-82fcc8742d59")
+	)
+	(pad "5" smd rect
+		(at 0.975 0)
+		(size 0.45 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "14659567-0a19-48c6-add4-ca19bcb93834")
+	)
+	(pad "6" smd rect
+		(at 0.975 -0.65)
+		(size 0.45 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "487bbb37-b9b4-41ba-958e-8867bfe753ad")
+	)
+	(pad "7" smd rect
+		(at 0 -0.488)
+		(size 0.9 0.625)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "deaf6a17-445f-44f1-8a01-15813a422ccd")
+	)
+	(pad "8" smd rect
+		(at 0 0.488)
+		(size 0.9 0.625)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2e3b4948-78fd-4f64-843b-8abf94e03b93")
+	)
+	(embedded_fonts no)
+)

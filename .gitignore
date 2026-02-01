@@ -1,0 +1,19 @@
+# KiCad ignore list
+*.lck
+*.bkp
+*.bak
+*.000
+*.rpt
+*.zip
+*.csv
+fp-info-cache
+_autosave-*
+archive_3d_models.log
+
+# Build files
+/plots/
+/gerbers/
+
+# Operating System junk
+.DS_Store
+Thumbs.db
