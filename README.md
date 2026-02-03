@@ -3,6 +3,9 @@ This is the experimental battery charging PCB designed for my YouTube video. You
 
 [![Watch the video](https://img.youtube.com/vi/-wEKOhVZ0NM/0.jpg)](https://www.youtube.com/watch?v=-wEKOhVZ0NM)
 
+### Please note: 
+This board is currently missing a pull up resistor on the SCL/SDA lines - I will be adding this very soon. Software correction is possible using the XIAO pull-ups, so if you manufacture this board init's current form it will still work, it just makes the code a little more verbose. 
+
 ## ⚠️ Safety Warning
 This board involves **Lithium-Ion battery charging**. 
 *   This is an **experimental prototype**. It works for me, but it has **not** been certified by safety agencies (UL, CE, etc.).
