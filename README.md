@@ -8,10 +8,10 @@ This board is currently missing a pull up resistor on the SCL/SDA lines - I will
 
 ## ⚠️ Safety Warning
 This board involves **Lithium-Ion battery charging**. 
-*   This is an **experimental prototype**. It works for me, but it has **not** been certified by safety agencies (UL, CE, etc.).
-*   Lithium batteries can be dangerous if mishandled. 
-*   **DO NOT leave this device unattended while charging.**
-*   Double-check all component values and polarity before plugging it in.
+*   This is an **experimental prototype** from a hobbyist. **I am not a professional engineer**. It has **not** been certified by safety agencies (UL, CE, etc.).
+*   Lithium batteries can be dangerous if mishandled (risk of thermal runaway, fire, explosion, and serious injury).
+*   **DO NOT leave this device unattended with a battery connected**
+*   By using these files, you agree that you are solely responsible for verifying the safety of the circuit.
 
 ## License & Liability
 
