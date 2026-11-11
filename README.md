@@ -4,7 +4,9 @@ This is the experimental battery charging PCB designed for my YouTube video. You
 [![Watch the video](https://img.youtube.com/vi/-wEKOhVZ0NM/0.jpg)](https://www.youtube.com/watch?v=-wEKOhVZ0NM)
 
 ### Please note: 
-This board is currently missing a pull up resistor on the SCL/SDA lines - I will be adding this very soon. Software correction is possible using the XIAO pull-ups, and closing the FET early in the boot cycle. So using the board in its current form just makes the code a little more verbose. 
+The design files in this repository include 10k pull-up resistors on the I2C lines (R9 on SCL, R10 on SDA), tied to the switched `3V_SW` rail, so boards built from the current files need no software workaround.
+
+If you have an earlier board that was built without these resistors, software correction is possible using the XIAO pull-ups, and closing the FET early in the boot cycle:
 
 ```
 # Force GPIO18 LOW (Turns P-Channel MOSFET on)
